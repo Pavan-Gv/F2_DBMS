@@ -27,7 +27,7 @@ create table student(rollno int,name char(20),age int,addr varchar(20),phoneno i
 ### OUTPUT:
 ![image](https://github.com/Aishwarya-sankar/F2_DBMS/assets/121418444/0a408222-71e9-489b-9a1c-e2018c96e9f2)
 
-### 2) Change the above student table by adding another attribute department
+**2) Change the above student table by adding another attribute department**
 
 ```
 alter table student add department char(30);
@@ -35,8 +35,7 @@ alter table student add department char(30);
 ### OUTPUT:
 ![image](https://github.com/Aishwarya-sankar/F2_DBMS/assets/121418444/d89fc1a6-0255-4e24-be57-d4a2bdbdb88e)
 
-
-### 3) Drop the student table
+**3) Drop the student table**
  
 ```
 drop table student;
@@ -46,7 +45,7 @@ drop table student;
 ![image](https://github.com/Aishwarya-sankar/F2_DBMS/assets/121418444/cda2e0c8-50d6-49e1-be64-1db873059e4c)
 
 
-### 4) Delete the student table using truncate keyword
+**4) Delete the student table using truncate keyword**
 
 ```
 truncate table student;
@@ -57,7 +56,7 @@ truncate table student;
 
 
 
-### 5) Rename the student table to mystudent
+**5) Rename the student table to mystudent**
 ```
 alter table student rename to mystudent;
 ```
